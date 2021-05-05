@@ -41,6 +41,11 @@ section {
     background-color: whitesmoke;
 }   
 
+.img-article {
+    width: 150px;
+}
+
+
 /* This Is An ID */
 #hero {
     background-color: tomato;
