@@ -1,0 +1,48 @@
+h1 {
+    font-size: 3rem;
+} 
+
+h2 {
+    font-size: 5rem;
+}    
+
+h3 {
+    font-size: 1.5rem;
+} 
+
+h4 {
+    font-size: 3rem;
+}  
+
+h5 {
+    font-size: 2rem;
+} 
+
+h6 {
+    font-size: 0.6rem;
+}   
+
+
+
+p {
+    color: darkgoldenrod;
+    /* font-size: 21px; */
+}
+
+
+section {
+    /* background-color: green; */
+}   
+
+
+.home-article {
+    border: 10px solid whitesmoke;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}   
+
+/* This Is An ID */
+#hero {
+    background-color: tomato;
+    
+}    

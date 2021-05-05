@@ -6,77 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='description' content='This will show on Google result page as description'>
     <title>Ina Webpage</title>
+    <!-- CSS - start -->
+    <link rel="stylesheet" href='css/style.css'>
+    <style type='text/css'>
+        header {
+            background-color: aquamarine;
+        }
+    
+    </style>
 </head>
 <body>
     <!-- header - start -->
   <header style='border: 1px solid red;'>
-      logo
-      the menu goes here
+    <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+        <nav>
+            <a href='#'>About</a>
+            <a href='#'>Features</a>
+            <a href='#'>Contact</a> 
+        </nav>
   </header>
   <!-- header end -->
 
   <!-- header - start -->
-  <div style='border: 1px solid yellow;'>
+  <section id='hero' style='border: 1px solid yellow; background-color: aquamarine;'>
         <h1>heading 1</h1>
-        <p>paragraph</p>
+        <p>paragraph <strong>Hello</strong></p>
         <button>This is the CTA</button>
-  </div>
+  </section>
 <!-- header - end -->
 
 <!-- blog article - start -->
   <div>
-        <article>
-            Title - Article 1
-            description
-            Avatar Photo
-            Author Namer
+        <article class="home-article">
+            <img >
+            <h3>Title - Article 1</h3>
+            <p>description</p>
+                <div>
+                <img>Avatar Photo
+                <p>Author Name</p>
+                </div>
          </article>
 
-        <article>
-            Title - Article 2
-            description
-            Avatar Photo
-            Author Namer
-        </article>
+         <article class="home-article">
+            <img >
+            <h3>Title - Article 2</h3>
+            <p>description</p>
+                <div>
+                <img>Avatar Photo
+                <p>Author Name</p>
+                </div>
+         </article>
         
-        <article>
-            Title - Article 3
-            description
-            Avatar Photo
-            Author Namer
-        </article>
+         <article class="home-article">
+            <img >
+            <h3>Title - Article 3</h3>
+            <p>description</p>
+                <div>
+                <img>Avatar Photo
+                <p>Author Name</p>
+                </div>
+         </article>
   </div>
 <!-- blog article - end -->
 
-<!-- features - start -->
+<!-- feature 1 - start -->
   <div>
-     Feature 1
-     Feautre 2
-     Feature 3
-     Feature 4
+      <img>
+        <div>
+
+            <h4>Feature 1</h4>
+            <p>Feat Description</p>
+        </div>
+
+    </div>
+    <!-- feature 1 - end -->
+
+<!-- feature 2 - start -->
+<div>
+    <img>
+      <div>
+
+          <h4>Feature 2</h4>
+          <p>Feat Description</p>
+      </div>
+
   </div>
+  <!-- feature 2 - end -->
+
+     <!-- feature 3 - start -->
+  <div>
+    <img>
+      <div>
+
+          <h4>Feature 3</h4>
+          <p>Feat Description</p>
+      </div>
+
+  </div>
+  <!-- feature 3 - end -->
+
+     <!-- feature 4 - start -->
+  <div>
+    <img>
+      <div>
+
+          <h4>Feature 4</h4>
+          <p>Feat Description</p>
+      </div>
+
+  </div>
+  <!-- feature 4 - end -->
+
 <!-- features - end -->
 
 <!-- contact - start -->
-  <div>
-      Contact (Title - Heading 3)
-      Form name
-      Form email
-      Form Message
-  </div>
+  <section>
+      <h3>Contact (Title - Heading 3)</h3>
+      <div>
+           <form action='#'>
+             <input type="text"> Form name<br><br>
+             <input type="email"> Email<br><br>
+             <textarea rows='5'>Write Your Message</textarea><br><br>
+             <input type="submit" value='Send Message'>
+          </form>
+      </div>
+  </section>
 <!-- contact - end -->
 
 <!-- footer - start -->
   <footer>
-      About
-      features
-      Contact Us
+    <div>
+        <a href='#'>About</a>
+        <a href='#'>Features</a>
+        <a href='mailto:blerina.lile@gmail.com'>Email</a>
+    </div>
 
-      Social Media
-      Instagram
-      Facebook
-      Twitter
-
+    <div>
+        <h5>Follow Us</h5>
+        <a href='www.instagram.com/_plus_null' target="_blank">Instagram</a>
+        <a href='#'>Facebook</a>
+        <a href='#'>Twitter</a>
+    </div>
 
   </footer>
 <!-- footer - end -->
