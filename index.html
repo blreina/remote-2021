@@ -28,18 +28,19 @@
 
 <body>
     <!-- header - start -->
-  <header style='border: 1px solid red;'>
+  <header class="container">
     <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
         <nav>
             <a href='#'>About</a>
             <a href='#'>Features</a>
             <a href='#'>Contact</a> 
+            <a href='docs/ina_cv.pdf' class="button-link">Download CV</a> 
         </nav>
   </header>
   <!-- header end -->
 
   <!-- hero - start -->
-  <section id='hero'>
+  <section id="hero" class="container">
         <h1>heading 1</h1>
         <p>paragraph <strong>Hello</strong></p>
         <button>This is the CTA</button>
@@ -47,46 +48,44 @@
 <!-- hero - end -->
 
 <!-- blog article - start -->
-  <div>
+  <section id="articles">
         <article class="home-article">
             <img src="img/Coffee_Harvest.jpg" class="img-article">
             <h3>Title - Article 1</h3>
             <p>description</p>
-                <div>
-                  <img src="img/avatar_01.png" alt='Photo of Ina'>
+                <div class="container author-container">
+                  <img src="img/avatar_01.png" alt='Photo of Ina' class="author-image">
                   <p>Author Name</p>
                 </div>
          </article>
-
          <article class="home-article">
             <img src="img/6306bd24a7ced57c969bb6c73841272d.jpg" class="img-article">
             <h3>Title - Article 2</h3>
             <p>description</p>
-                <div>
-                  <img src="img/avatar_02.png" alt="Sofia">
+                <div class="container author-container">
+                  <img src="img/avatar_02.png" alt="Sofia" class="author-image">
                   <p>Author Name</p>
                 </div>
          </article>
-        
          <article class="home-article">
             <img src="img/438914-1200x700c56x50-Kaffee-mit-pflanzlicher-Milch-Barista_1200x798.jpg" class="img-article">
             <h3>Title - Article 3</h3>
             <p>description</p>
-                <div>
-                  <img src="img/avatar_03.png" alt="Juno">
+                <div class="container author-container">
+                  <img src="img/avatar_03.png" alt="Juno" class="author-image">
                   <p>Author Name</p>
                 </div>
          </article>
-  </div>
+  </section>
 <!-- blog article - end -->
-
+<!-- <features-start> -->
+  <section id="features" class="container">
 <!-- feature 1 - start -->
-  <div>
+  <div class="container feature-card">
       <span class="icon-feature">
         <i class="fas fa-air-freshener"></i>
       </span>
         <div>
-
             <h4>Air Freshner</h4>
             <p>Feat Description</p>
         </div>
@@ -95,12 +94,11 @@
     <!-- feature 1 - end -->
 
 <!-- feature 2 - start -->
-<div>
+<div class="container feature-card">
   <span class="icon-feature">
     <i class="fas fa-atom"></i>
   </span>
       <div>
-
           <h4>Atom</h4>
           <p>Feat Description</p>
       </div>
@@ -108,13 +106,12 @@
   </div>
   <!-- feature 2 - end -->
 
-     <!-- feature 3 - start -->
-  <div>
+  <!-- feature 3 - start -->
+  <div class="container feature-card">
     <span class="icon-feature">
       <i class="fas fa-fish"></i>
     </span>
       <div>
-
           <h4>Fish</h4>
           <p>Feat Description</p>
       </div>
@@ -122,51 +119,85 @@
   </div>
   <!-- feature 3 - end -->
 
-     <!-- feature 4 - start -->
-  <div>
+  <!-- feature 4 - start -->
+  <div class="container feature-card">
     <span class="icon-feature">
       <i class="fas fa-peace"></i>
     </span>
 
       <div>
-
           <h4>Peace & Love</h4>
           <p>Feat Description</p>
       </div>
 
   </div>
   <!-- feature 4 - end -->
-
+</section>
 <!-- features - end -->
 
 <!-- contact - start -->
-  <section>
-      <h3>Contact (Title - Heading 3)</h3>
-      <div>
+  <section id="contact" class="container">
+    <div class="contact-30">
+      <h3>Contact</h3>
+    </div>
+      <div class="contact-70">
            <form action='#'>
-             <input type="text"> Form name<br><br>
-             <input type="email"> Email<br><br>
-             <textarea rows='5' cols="50">Write Your Message</textarea><br><br>
-             <input type="submit" value='Send Message'><br><br>
+              <label for='name'>Name</label><br>
+              <input id='Name'  type="text" placeholder="John Doe"> 
+             
+              <br><br>
+
+              <label for='email'>Email</label><br>
+              <input id='email' type="email" placeholder="johndoe@gmail.com">
+             
+              <br><br>
+
+              <label for="message">Write your message</label><br>
+              <textarea rows='5' cols="50" placeholder="write something nice"></textarea>
+              
+              <br><br>
+
+              <input type="checkbox" id="terms" checked>
+              <label for="terms">I accept all the terms and i will not complain</label>
+
+              <br><br>
+
+              <input type="submit" value='Send Message'>
+
+               <!-- <br><br> -->
+
+               <!-- <input type="date">
+
+               <br><br>
+
+               <input type="password">
+
+               <br><br>
+
+               <input type="file"> -->
+
+               
+
+
           </form>
       </div>
   </section>
 <!-- contact - end -->
 
 <!-- footer - start -->
-  <footer>
+  <footer class="container">
     <div>
-        <a href='#'>About</a>
-        <a href='#'>Features</a>
-        <a href='mailto:blerina.lile@gmail.com'>Email</a>
+        <a href='#'>About</a><br>
+        <a href='#'>Features</a><br>
+        <a href='mailto:blerina.lile@gmail.com'>Email</a><br>
     </div>
 
     <div>
         <h5>Follow Us</h5>
-        <a href='www.instagram.com/_plus_null' target="_blank"></a><i class="fab fa-instagram fa-2x"></i></a>
-        <a href='www.facebook.com/inalile' target="_blank"></a><i class="fab fa-facebook fa-2x"></i></a>
-        <a href='www.twitter.com/imageslayers' target="_blank"></a><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="ina.lile.medium.com" target="_blank"></a><i class="fab fa-medium-m fa-2x"></i></a>
+        <a href='www.instagram.com/_plus_null' target="_blank"><span class="icon-social"><i class="fab fa-instagram fa-2x"></i></span></a>
+        <a href='www.facebook.com/inalile' target="_blank"><span class="icon-social"><i class="fab fa-facebook fa-2x"></i></span></a>
+        <a href='www.twitter.com/imageslayers' target="_blank"><span class="icon-social"></span><i class="fab fa-twitter fa-2x"></i></span></a>
+        <a href="ina.lile.medium.com" target="_blank"><span class="icon-social"><i class="fab fa-medium-m fa-2x"></i></span></a>
 
     </div>
 
