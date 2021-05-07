@@ -54,6 +54,7 @@ header {
     padding: 30px;
     justify-content: space-between;
     align-items: center;
+    background-color: royalblue;
 } 
 
 footer {
@@ -67,13 +68,51 @@ header nav a {
     padding: 10px 30px;
 }    
 
+/* Links  */
+a:link {
+    background-color: slategray;
+}
+
+a:hover {
+ background-color: wheat;
+}
+
+a:visited {
+    background-color: slategray;
+
+}
+
+a:active {
+    background-color: slateblue;
+
+}
+
+
+/* Menu Links  */
+a.menu:link, a.menu:visited {
+    color: purple;
+
+}
+
+a.menu:hover {
+    color: sienna;
+
+}
+
+
+
+
 /* This is a class  */
-.button-link {
+a.button-link:link, a.button-link:visited {
     background-color: orangered;
     color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 8%);
 }
+
+a.button-link:hover {
+    background-color: purple;
+} 
 
 .home-article {
     /* border: 10px solid whitesmoke; */
@@ -83,6 +122,7 @@ header nav a {
     padding: 20px;
     margin: 20px;
 }   
+
 
 .img-article {
     width: 100%;
@@ -158,4 +198,35 @@ header nav a {
 #contact {
     padding: 30px;
 
+}
+
+
+/* -------------------------------- */
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    h1 {
+       background-color: blue; 
+       font-size: 4.653rem;
+    }
+    header {
+        background-color: sandybrown;
+    }
+
+}
+
+
+
+
+
+/* -------------------------------- */
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    h1 {
+        background-color: darkmagenta;
+        font-size: 5.653rem;
+    }
+
+    header {
+    background-color: royalblue;
+    }
 }
