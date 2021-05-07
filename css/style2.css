@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    background-color: rgb(238, 201, 184);
+} 
+
+header {
+    align-items: center;
+    background-color: rgb(104, 50, 50);
+}
+
+footer {
+    height: 350px;
+    background-color:rgb(238, 201, 184);;
+    text-align: center;
+    padding: 30px 60px;
+} 
+
+.icon-social {
+    margin: 5px;
+}
+
+.container {
+    display:ruby-base;
+} 
+
+.author-container {
+    align-items: center;
+} 
+
+.contact-30 {
+    width: 30%;
+}
+
+.contact-70 {
+    width: 70%;
+}
+
+.fab {
+    margin: 20px;
+}   
+
+#hero {
+    background-color:white;
+    text-align: center;
+    height: 60vh;
+    justify-content: center;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+
+
+h1 {
+    padding: 30px;
+    font-size: 6rem;
+    color: rgb(221, 177, 177);
+    font-family: 'Krona One', sans-serif;
+} 
+
+p {
+    color: rgb(240, 192, 104);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: rgb(211, 241, 165);
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#contact {
+    padding: 60px;
+
+}
